@@ -27,4 +27,35 @@
     color: rgb(255, 255, 255);
     text-decoration: underline;
   }
+  a:link {
+    color: #605f5f;
+  }
+  a:visited {
+    color: #605f5f;
+  }
+  a:hover {
+    color: white;
+    background-color: #605f5f;
+    border-radius: 5%;
+  }
+  .header {
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+  }
+  .header ul {
+    color: #605f5f;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header li {
+    display: inline-block;
+    margin: 25px 4px;
+  }
+  .header a {
+    text-decoration-line: none;
+    margin: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
