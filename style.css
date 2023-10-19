@@ -12,6 +12,12 @@ a:hover {
   border-radius: 5%;
 }
 
+.header {
+  height: 80px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
 .header ul {
   color: #605f5f;
   list-style-type: none;
