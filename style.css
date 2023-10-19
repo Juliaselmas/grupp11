@@ -42,20 +42,29 @@
     height: 80px;
     background-color: bisque;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+  }
+  .header .logo {
+    width: 20%;
+    display: flex;
+    padding: 0;
+    margin: 10px;
+  }
+  .header nav {
+    display: flex;
   }
   .header ul {
     color: #605f5f;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
   }
   .header li {
     display: inline-block;
-    margin: 25px 4px;
   }
   .header a {
     text-decoration-line: none;
-    margin: 5px;
+    margin: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

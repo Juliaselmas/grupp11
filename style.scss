@@ -48,24 +48,35 @@
         height: 80px;
         background-color: bisque;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+
+        .logo {
+            width: 20%;
+            display: flex;
+            padding: 0;
+            margin: 10px;
+        }
         
+        nav {
+            display: flex;
+        }
     
         ul {
             color: #605f5f;
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-self: center;
+        
         }
     
         li {
             display: inline-block;
-            margin: 25px 4px;
         }
     
         a {
             text-decoration-line: none;
-            margin: 5px;
+            margin: 10px;
         }
     }
 }
