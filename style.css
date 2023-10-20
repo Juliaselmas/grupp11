@@ -71,49 +71,84 @@
     justify-content: center;
     box-sizing: border-box;
   }
+  .mainpage .content1 .book-cover1 {
+    border-radius: 10%;
+  }
   .mainpage .content1 p {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
   }
   .mainpage .content2 {
     max-width: 500px;
     margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
   }
+  .mainpage .content2 .book-cover2 {
+    border-radius: 10%;
+  }
   .mainpage .content2 p {
+    margin: 20px 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
   }
-  .container-footer {
+  .mainpage .content3 {
+    max-width: 500px;
+    margin: 10px;
+    text-align: center;
     display: flex;
-    background: rgb(255, 182, 126);
-    width: 100%;
-    height: 100%;
-  }
-  .container-footer .content-footer1 {
-    display: flex;
-    width: 20%;
-  }
-  .container-footer .content-footer1 .company-logo {
-    border-radius: 100px;
-    padding: 5px;
-  }
-  .container-footer .content-footer2 {
-    width: 80%;
-    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
-  .container-footer .content-footer2 a {
-    text-decoration: none;
-    color: black;
+  .mainpage .content3 img {
+    border-radius: 50%;
   }
-  .container-footer .content-footer2 a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
+  .mainpage .content3 .author {
+    width: 230px;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
+.container-footer {
+  display: flex;
+  background: rgb(255, 182, 126);
+  width: 100%;
+  height: 100%;
+}
+.container-footer .content-footer1 {
+  display: flex;
+  width: 20%;
+}
+.container-footer .content-footer1 .company-logo {
+  border-radius: 100px;
+  padding: 5px;
+}
+.container-footer .content-footer2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-footer .content-footer2 a {
+  text-decoration: none;
+  color: black;
+}
+.container-footer .content-footer2 a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
 /*header {
     display: flex;
 
