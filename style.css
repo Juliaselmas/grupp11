@@ -42,7 +42,7 @@
     height: 80px;
     background-color: bisque;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .header .logo {
     width: 20%;
@@ -51,6 +51,7 @@
     margin: 10px;
   }
   .header nav {
+    width: 80%;
     display: flex;
   }
   .header ul {
@@ -59,9 +60,6 @@
     display: flex;
     justify-content: flex-start;
     align-self: center;
-  }
-  .header li {
-    display: inline-block;
   }
   .header a {
     text-decoration-line: none;
