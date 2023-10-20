@@ -23,7 +23,7 @@
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .container-header .content-header2 a {
     color: white;
