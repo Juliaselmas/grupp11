@@ -65,9 +65,19 @@ $fontSizeHeadline: 36px;
     }
 
     .mainpage {
-        width: 90%;
+        max-width: 576px;
         height: 400px;
         background-color: lightpink;
+        display: flex;
+        justify-content: center;
+
+        .content1 {
+            max-width: 550px;
+            margin: 10px;
+            display: flex;
+            flex-direction:column;
+            box-sizing: border-box;
+        }
     }
 
     .container-footer {
