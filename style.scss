@@ -4,14 +4,18 @@ $fontSizeHeadline: 36px;
 @mixin link () {
 
     a:link {
-        color: #605f5f;
+        color: white;
     }
     
     a:visited {
-        color: #605f5f;
+        color: white;
     }
     
     a:hover {
+        color: #605f5f;
+    }
+
+    a:active {
         color: white;
         background-color: #605f5f;
         border-radius: 5%;
@@ -28,7 +32,7 @@ $fontSizeHeadline: 36px;
         display: flex;
         background: #678cc5;
         width: 100%;
-        height: 100px;
+        height: 130px;
         
         .content-header1 {
             display: flex;
