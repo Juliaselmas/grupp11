@@ -5,6 +5,7 @@ $fontSizeHeadline: 36px;
 
     a:link {
         color: white;
+        text-decoration: none;
     }
     
     a:visited {
@@ -54,7 +55,7 @@ $fontSizeHeadline: 36px;
             justify-content: flex-start;
     
             a {
-                text-decoration: none;
+                @include link();
                 color: white;
                 margin: 12px;
                 font-family: Arial, Helvetica, sans-serif;
