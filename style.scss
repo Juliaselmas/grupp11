@@ -94,6 +94,22 @@ $fontSizeHeadline: 34px;
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        img {
+            display: flex;
+        }
+
+        .aboutus {
+            max-width: 450px;
+            margin: 10px 10px 30px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: $fontSizeText;
+            text-align: center;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         .content1 {
             max-width: 500px;
             margin: 20px;
