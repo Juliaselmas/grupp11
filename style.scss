@@ -32,7 +32,7 @@ $fontSizeHeadline: 34px;
 
     .container-header {
         display: flex;
-        background: #678cc5;
+        background: #DE5E5A;
         width: 100%;
         height: 130px;
         
@@ -81,12 +81,15 @@ $fontSizeHeadline: 34px;
         justify-content: center; 
         align-items: center;
 
+        }
+
         button {
-            background-color: #678cc5;
-            color: white;
-            border: 0px;
+            background-color: #f2efeb;
+            color: #DE5E5A;
+            border: solid #DE5E5A 4px;
             border-radius: 5%;
-            padding: 5px 10px;
+            margin: 10px;
+            padding: 10px 15px;
         }
 
         h2 {
@@ -110,23 +113,32 @@ $fontSizeHeadline: 34px;
             align-items: center;
         }
 
+        
         .content1 {
             max-width: 500px;
             margin: 20px;
             display: flex;
-            flex-direction:column;
+            flex-direction:row;
             align-items: center;
             justify-content: center;
             box-sizing: border-box;
+            flex-wrap: wrap;
 
-            .book-cover1 {
+            .book-cover {
                 border-radius: 10%;
+                display: flex;
+                margin: 10px;
+                
             }
             
             p {
+                
+                min-width: 300px;
+                margin: 20px 0;
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: $fontSizeText
+                
             }
         }
 
@@ -136,19 +148,20 @@ $fontSizeHeadline: 34px;
             display: flex;
             flex-direction:column;
             align-items: center;
+            justify-content: center;
             box-sizing: border-box;
 
-            .book-cover2 {
+            .general {
                 border-radius: 10%;
             }
             
             p {
-                margin: 20px 0;
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: $fontSizeText
             }
         }
+
 
         .content3 {
             max-width: 500px;
@@ -180,7 +193,7 @@ $fontSizeHeadline: 34px;
             }
         }
 
-    }
+    
 
     .container-footer {
         display: flex;
