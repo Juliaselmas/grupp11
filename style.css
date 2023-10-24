@@ -4,7 +4,7 @@
   }
   .container-header {
     display: flex;
-    background: #DE5E5A;
+    background: #d3c6bc;
     width: 100%;
     height: 130px;
   }
@@ -26,7 +26,7 @@
     justify-content: center;
   }
   .container-header .content-header2 a {
-    color: white;
+    color: #DE5E5A;
     text-decoration: none;
     margin: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +55,7 @@
   .mainpage {
     max-width: 576px;
     height: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     background-color: #ede5dc;
     display: flex;
     flex-direction: column;
@@ -70,16 +70,29 @@
     margin: 10px;
     padding: 10px 15px;
   }
-  h2 {
+  h1 {
     font-size: 34px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #416561;
+    margin: 40px 0 5px 0;
+  }
+  h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #416561;
+    margin: 30px 0 0 0;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #416561;
   }
   img {
     display: flex;
   }
   .aboutus {
-    max-width: 450px;
-    margin: 10px 10px 30px 10px;
+    max-width: 100%;
+    margin: 10px 0 30px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
@@ -88,9 +101,16 @@
     justify-content: center;
     align-items: center;
   }
+  .aboutus img {
+    width: 100%;
+  }
+  .aboutus p {
+    width: 85%;
+    margin: 20px 0;
+  }
   .content1 {
-    max-width: 500px;
-    margin: 20px;
+    max-width: 90%;
+    margin: 0 0 20px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,7 +121,7 @@
   .content1 .book-cover {
     border-radius: 10%;
     display: flex;
-    margin: 10px;
+    margin: 15px 10px;
   }
   .content1 p {
     min-width: 300px;
@@ -111,8 +131,6 @@
     font-size: 12px;
   }
   .content2 {
-    max-width: 500px;
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,16 +138,18 @@
     box-sizing: border-box;
   }
   .content2 .general {
-    border-radius: 10%;
+    width: 100%;
+    margin: 20px 0;
   }
   .content2 p {
+    max-width: 500px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
   .content3 {
     max-width: 500px;
-    margin: 10px;
+    margin: 20px 0 40px 0;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -152,32 +172,40 @@
   }
 }
 .container-footer {
-  display: flex;
-  background: rgb(255, 182, 126);
+  background: #d3c6bc;
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 .container-footer .content-footer1 {
-  display: flex;
-  width: 20%;
-}
-.container-footer .content-footer1 .company-logo {
-  border-radius: 100px;
-  padding: 5px;
-}
-.container-footer .content-footer2 {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.container-footer .content-footer2 a {
+.container-footer .content-footer1 a {
+  margin: 50px 10px;
   text-decoration: none;
-  color: black;
+  color: #DE5E5A;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.container-footer .content-footer2 a:hover {
+.container-footer .content-footer1 a:hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
+}
+.container-footer .content-footer2 .company-logo {
+  border-radius: 100px;
+  padding: 5px;
+  position: relative;
+  bottom: 15px;
+  left: 270px;
+}
+.container-footer .content-footer2 .copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #DE5E5A;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
 }
 
 /*header {
