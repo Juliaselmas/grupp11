@@ -62,21 +62,22 @@
     justify-content: center;
     align-items: center;
   }
-  .mainpage button {
-    background-color: #678cc5;
-    color: white;
-    border: 0px;
+  button {
+    background-color: #f2efeb;
+    color: #DE5E5A;
+    border: solid #DE5E5A 4px;
     border-radius: 5%;
-    padding: 5px 10px;
+    margin: 10px;
+    padding: 10px 15px;
   }
-  .mainpage h2 {
+  h2 {
     font-size: 34px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .mainpage img {
+  img {
     display: flex;
   }
-  .mainpage .aboutus {
+  .aboutus {
     max-width: 450px;
     margin: 10px 10px 30px 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,7 +88,29 @@
     justify-content: center;
     align-items: center;
   }
-  .mainpage .content1 {
+  .content1 {
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .content1 .book-cover {
+    border-radius: 10%;
+    display: flex;
+    margin: 10px;
+  }
+  .content1 p {
+    min-width: 300px;
+    margin: 20px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  .content2 {
     max-width: 500px;
     margin: 20px;
     display: flex;
@@ -96,32 +119,15 @@
     justify-content: center;
     box-sizing: border-box;
   }
-  .mainpage .content1 .book-cover1 {
+  .content2 .general {
     border-radius: 10%;
   }
-  .mainpage .content1 p {
+  .content2 p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
-  .mainpage .content2 {
-    max-width: 500px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .mainpage .content2 .book-cover2 {
-    border-radius: 10%;
-  }
-  .mainpage .content2 p {
-    margin: 20px 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-  }
-  .mainpage .content3 {
+  .content3 {
     max-width: 500px;
     margin: 10px;
     text-align: center;
@@ -131,10 +137,10 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .mainpage .content3 img {
+  .content3 img {
     border-radius: 50%;
   }
-  .mainpage .content3 .author {
+  .content3 .author {
     width: 230px;
     margin: 30px 10px;
     font-family: Arial, Helvetica, sans-serif;
