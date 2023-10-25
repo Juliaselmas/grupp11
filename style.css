@@ -29,7 +29,7 @@
     color: #DE5E5A;
     text-decoration: none;
     margin: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
   }
   .container-header .content-header2 a a:link {
@@ -47,10 +47,17 @@
     color: white;
     background-color: #605f5f;
     border-radius: 5%;
+    text-transform: uppercase;
   }
   .container-header .content-header2 a:hover {
     color: #2a2a40;
     text-decoration: none;
+  }
+  .container-header .content-header2 a:active {
+    color: white;
+    background-color: #605f5f;
+    border-radius: 5%;
+    text-transform: uppercase;
   }
   .mainpage {
     max-width: 576px;
@@ -72,19 +79,19 @@
   }
   h1 {
     font-size: 34px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     color: #416561;
     margin: 40px 0 5px 0;
   }
   h2 {
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     color: #416561;
     margin: 30px 0 0 0;
   }
   h3 {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     color: #416561;
   }
   img {
@@ -93,7 +100,7 @@
   .aboutus {
     max-width: 100%;
     margin: 10px 0 30px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
     text-align: center;
     display: flex;
@@ -127,7 +134,7 @@
     min-width: 300px;
     margin: 20px 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
   }
   .content2 {
@@ -144,7 +151,7 @@
   .content2 p {
     max-width: 500px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
   }
   .content3 {
@@ -160,15 +167,25 @@
   .content3 img {
     border-radius: 50%;
   }
-  .content3 .author {
+  .content3 .employee {
     width: 230px;
     margin: 30px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .content3 .employee h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #416561;
+    margin: 10px 5px 5px 5px;
+  }
+  .content3 .employee h4 {
+    font-family: Arial, Helvetica, Sans-serif;
+    margin: 0 5px 5px 5px;
   }
 }
 .container-footer {
@@ -186,7 +203,7 @@
   margin: 50px 10px;
   text-decoration: none;
   color: #DE5E5A;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, Sans-serif;
 }
 .container-footer .content-footer1 a:hover {
   color: rgb(255, 255, 255);
@@ -200,7 +217,7 @@
   left: 270px;
 }
 .container-footer .content-footer2 .copyright {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, Sans-serif;
   color: #DE5E5A;
   font-size: 11px;
   text-align: center;

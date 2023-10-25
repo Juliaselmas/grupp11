@@ -1,6 +1,7 @@
 $fontSizeText: 12px;
 $fontSizeMediumText: 24px;
 $fontSizeHeadline: 34px;
+$fontText: Arial, Helvetica, Sans-serif;
 
 @mixin link () {
 
@@ -22,6 +23,7 @@ $fontSizeHeadline: 34px;
         color: white;
         background-color: #605f5f;
         border-radius: 5%;
+        text-transform: uppercase;
     }
 }
 
@@ -61,14 +63,26 @@ $fontSizeHeadline: 34px;
                 color: #DE5E5A;
                 text-decoration: none;
                 margin: 12px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fontText;
                 font-size: 12px;
     
                 &:hover {
                     color: #2a2a40;
                     text-decoration: none;
                 }
+
+                &:active {
+                    color: white;
+                    background-color: #605f5f;
+                    border-radius: 5%;
+                    text-transform: uppercase;
+                }
+            
+
+                
             }
+
+
         }
     }
 
@@ -95,7 +109,7 @@ $fontSizeHeadline: 34px;
 
         h1 {
             font-size: $fontSizeHeadline;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fontText;
             color: #416561;
             margin: 40px 0 5px 0;
 
@@ -103,14 +117,14 @@ $fontSizeHeadline: 34px;
 
         h2 {
             font-size: $fontSizeMediumText;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fontText;
             color: #416561;
             margin: 30px 0 0 0;
         }
 
         h3 {
             font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fontText;
             color: #416561;
         }
 
@@ -121,7 +135,7 @@ $fontSizeHeadline: 34px;
         .aboutus {
             max-width: 100%;
             margin: 10px 0 30px 0;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fontText;
             font-size: $fontSizeText;
             text-align: center;
             display:flex;
@@ -137,6 +151,7 @@ $fontSizeHeadline: 34px;
                 width: 85%;
                 margin: 20px 0;
             }
+
         }
 
         
@@ -162,8 +177,8 @@ $fontSizeHeadline: 34px;
                 min-width: 300px;
                 margin: 20px 0;
                 text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: $fontSizeText
+                font-family: $fontText;
+                font-size: $fontSizeText;
                 
             }
         }
@@ -183,8 +198,8 @@ $fontSizeHeadline: 34px;
             p {
                 max-width: 500px;
                 text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: $fontSizeText
+                font-family: $fontText;
+                font-size: $fontSizeText;
             }
         }
 
@@ -204,15 +219,27 @@ $fontSizeHeadline: 34px;
                 border-radius: 50%;
             }
 
-            .author {
+            .employee {
                 width: 230px;
                 margin: 30px 10px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fontText;
                 font-size: $fontSizeText;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 flex-wrap: wrap;
+
+                h3 {
+                    font-size: 20px;
+                    font-family: $fontText;
+                    color: #416561;
+                    margin: 10px 5px 5px 5px;
+                }
+
+                h4 {
+                    font-family: $fontText;
+                    margin: 0 5px 5px 5px;
+                }
 
             }
 
@@ -235,7 +262,7 @@ $fontSizeHeadline: 34px;
                 margin: 50px 10px;
                 text-decoration: none;
                 color:#DE5E5A;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fontText;
                 &:hover {
                     color: rgb(255, 255, 255);
                     text-decoration: underline;
@@ -256,7 +283,7 @@ $fontSizeHeadline: 34px;
             }
 
             .copyright {
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: $fontText;
                 color:#DE5E5A;
                 font-size: 11px;
                 text-align: center;
