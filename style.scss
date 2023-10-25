@@ -452,7 +452,6 @@ $fontText: Arial, Helvetica, Sans-serif;
                 justify-content: flex-end;
         
                 a {
-                    @include link();
                     color: #DE5E5A;
                     text-decoration: none;
                     margin: 30px;
