@@ -529,7 +529,7 @@
     margin: 10px 20px;
   }
   .aboutus .textarea p {
-    margin: 50px 20px;
+    margin: 30px 20px 50px 20px;
   }
   .content1 {
     max-width: 90%;
@@ -568,7 +568,7 @@
     margin: 20px 0;
   }
   .content2 p {
-    max-width: 500px;
+    max-width: 60%;
     text-align: center;
     font-family: Arial, Helvetica, Sans-serif;
     font-size: 12px;
