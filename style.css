@@ -349,6 +349,7 @@
 @media (min-width: 577px) {
   body {
     margin: 0px;
+    background: #ede5dc;
   }
   .container-header {
     display: flex;
@@ -386,13 +387,11 @@
     font-size: 22px;
   }
   .container-header .content-header2 a:hover {
-    color: #2a2a40;
+    color: white;
     text-decoration: none;
   }
   .container-header .content-header2 a:active {
     color: white;
-    background-color: #605f5f;
-    border-radius: 5%;
     text-transform: uppercase;
   }
   .mainpage {
@@ -445,9 +444,9 @@
   .contact-container {
     width: 80%;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #d3c6bc;
     display: flex;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0px 5px 15px 0px #416561;
   }
   .contact-container .contact-1 {
     flex-basis: 60%;
@@ -481,7 +480,7 @@
   .contact-container .contact-1 .contact-form .submit-container button {
     border-radius: 30px;
     height: 35px;
-    background: #47164d;
+    background: #DE5E5A;
     width: 100px;
     border: none;
     outline: none;
@@ -631,8 +630,8 @@
     font-family: Arial, Helvetica, Sans-serif;
   }
   .container-footer .content-footer1 a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
   }
   .container-footer .content-footer2 {
     display: flex;
