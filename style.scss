@@ -244,7 +244,7 @@ $fontText: Arial, Helvetica, Sans-serif;
             }
 
             }
-        }
+        
 
     
 
@@ -293,57 +293,291 @@ $fontText: Arial, Helvetica, Sans-serif;
         }
         
     }
-   
+}
 
 
-/*header {
-    display: flex;
-
-    a:link {
-        color: #605f5f;
-    }
-    
-    a:visited {
-        color: #605f5f;
-    }
-    
-    a:hover {
-        color: white;
-        background-color: #605f5f;
-        border-radius: 5%;
-    }
-    
-    .header {
-        height: 80px;
-        background-color: bisque;
-        display: flex;
-        justify-content: center;
-
-        .logo {
-            width: 20%;
-            display: flex;
-            padding: 0;
-            margin: 10px;
+@media (min-width: 577px) {
+        body {
+          background-color: red;
+          margin: 0px;
         }
+
+        .container-header {
+            display: flex;
+            background: #d3c6bc;
+            width: 100%;
+            height: 200px;
+            
+            .content-header1 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 20%;
         
-        nav {
-            width: 80%;
-            display: flex;
-            justify-content: flex-start;
-        }
-    
-        ul {
-            color: #605f5f;
-            list-style-type: none;
-            display: flex;
-            align-self: center;
+                .company-logo {
+                    width: 140px;
+                    height: 140px;
+                    border-radius: 100px;
+                    margin:0 0 0 60px;
+                    padding: 5px;
+                    display: flex;
+                    align-self: center;
+                }
+            }
         
-        }
+            .content-header2 {
+                width: 80%;
+                margin: 0 80px 0 20px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+        
+                a {
+                    @include link();
+                    color: #DE5E5A;
+                    text-decoration: none;
+                    margin: 30px;
+                    font-family: $fontText;
+                    font-size: 28px;
+        
+                    &:hover {
+                        color: #2a2a40;
+                        text-decoration: none;
+                    }
     
-        a {
-            text-decoration-line: none;
-            margin: 5px;
+                    &:active {
+                        color: white;
+                        background-color: #605f5f;
+                        border-radius: 5%;
+                        text-transform: uppercase;
+                    }
+                
+    
+                    
+                }
+    
+    
+            }
         }
-    }
+        .mainpage {
+            width: 100%;
+            height: 100%;
+            padding: 20px 0 0 0;
+            background-color: #ede5dc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+    
+            }
+    
+            button {
+                background-color: #f2efeb;
+                color: #DE5E5A;
+                border: solid #DE5E5A 4px;
+                border-radius: 5%;
+                margin: 10px;
+                padding: 10px 15px;
+                font-size: 20px;
+            }
+    
+            h1 {
+                font-size: $fontSizeHeadline;
+                font-family: $fontText;
+                color: #416561;
+                margin: 40px 0 5px 0;
+    
+            }
+    
+            h2 {
+                font-size: $fontSizeMediumText;
+                font-family: $fontText;
+                color: #416561;
+                margin: 30px 0 0 0;
+            }
+    
+            h3 {
+                font-size: 20px;
+                font-family: $fontText;
+                color: #416561;
+            }
+    
+            img {
+                display: flex;
+                max-width: 900px;
+            }
+    
+            .aboutus {
+                max-width: 100%;
+                margin: 10px 0 30px 0;
+                font-family: $fontText;
+                font-size: $fontSizeText;
+                text-align: center;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                img {
+                    width: 100%;
+                }
+    
+                p {
+                    max-width: 75%;
+                    margin: 20px 0;
+                }
+    
+            }
+    
+            
+            .content1 {
+                max-width: 90%;
+                margin: 0 0 20px 0;
+                display: flex;
+                flex-direction:row;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                flex-wrap: wrap;
+    
+                .book-cover {
+                    border-radius: 10%;
+                    display: flex;
+                    margin: 15px 10px;
+                    
+                }
+                
+                p {
+                    
+                    min-width: 300px;
+                    margin: 20px 0;
+                    text-align: center;
+                    font-family: $fontText;
+                    font-size: $fontSizeText;
+                    
+                }
+            }
+    
+            .content2 {
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+    
+                .general {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+                
+                p {
+                    max-width: 500px;
+                    text-align: center;
+                    font-family: $fontText;
+                    font-size: $fontSizeText;
+                }
+            }
+    
+    
+            .content3 {
+                max-width: 80%;
+                margin: 20px 0 40px 0;
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
 
-}*/
+                p {
+                    max-width: 70%px;
+                    text-align: center;
+                    font-family: $fontText;
+                    font-size: $fontSizeText;
+                }
+    
+    
+                img {
+                    border-radius: 50%;
+                }
+    
+                .employee {
+                    width: 230px;
+                    margin: 40px;
+                    font-family: $fontText;
+                    font-size: $fontSizeText;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+    
+                    h3 {
+                        font-size: 20px;
+                        font-family: $fontText;
+                        color: #416561;
+                        margin: 10px 5px 5px 5px;
+                    }
+    
+                    h4 {
+                        font-family: $fontText;
+                        margin: 0 5px 5px 5px;
+                    }
+    
+                }
+    
+                }
+
+                .container-footer {
+                    background: #d3c6bc;
+                    width: 100%;
+                    height: 250px;
+            
+                    .content-footer1 {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        a {
+                            margin: 50px 10px;
+                            text-decoration: none;
+                            color:#DE5E5A;
+                            font-family: $fontText;
+                            &:hover {
+                                color: rgb(255, 255, 255);
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+            
+                    .content-footer2 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        
+            
+                        .company-logo {
+                            border-radius: 100px;
+                            padding: 5px;
+                            margin: 10px 0 20px 0;
+                            display: flex;
+                            justify-content: center;
+                            align-self: center;
+                        }
+            
+                        .copyright {
+                            font-family: $fontText;
+                            color:#DE5E5A;
+                            font-size: 11px;
+                            text-align: center;
+                            
+                           
+                        }
+                    }
+                    
+                }
+            }
+            
+    
+ 
