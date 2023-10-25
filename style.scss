@@ -338,7 +338,7 @@ $fontText: Arial, Helvetica, Sans-serif;
                     text-decoration: none;
                     margin: 30px;
                     font-family: $fontText;
-                    font-size: 28px;
+                    font-size: 22px;
         
                     &:hover {
                         color: #2a2a40;
@@ -442,10 +442,15 @@ $fontText: Arial, Helvetica, Sans-serif;
     
                 .book-cover {
                     border-radius: 10%;
-                    display: flex;
                     margin: 15px 10px;
+                    display: flex;
                     
                 }
+
+                button {
+                    margin: 20px 100px;
+                }
+
                 
                 p {
                     

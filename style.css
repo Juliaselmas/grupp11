@@ -262,7 +262,7 @@
     text-decoration: none;
     margin: 30px;
     font-family: Arial, Helvetica, Sans-serif;
-    font-size: 28px;
+    font-size: 22px;
   }
   .container-header .content-header2 a a:link {
     color: white;
@@ -361,8 +361,11 @@
   }
   .content1 .book-cover {
     border-radius: 10%;
-    display: flex;
     margin: 15px 10px;
+    display: flex;
+  }
+  .content1 button {
+    margin: 20px 100px;
   }
   .content1 p {
     min-width: 300px;
